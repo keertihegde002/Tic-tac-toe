@@ -35,7 +35,7 @@ boxes.forEach((box) => {
 
 });
 const showWinner=(winner) => {
-    msg.innerText = `Congratulations! \n <br> ${winner} Won.`;
+    msg.innerText = `Congratulations! 🎉 \n ${winner} Won.`;
     msgblock.classList.remove('hide');
     disableBtn();
 
